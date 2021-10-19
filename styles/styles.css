@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,20 +16,61 @@ body {
 }
 
 body {
-  height: 100%;
+  height: 95%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 30% 30% 30%;
-      grid-template-rows: 30% 30% 30%;
-  gap: 38px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #1e1f29), color-stop(20%, #1f1924), color-stop(150%, #30243a));
-  background: linear-gradient(180deg, #1e1f29 5%, #1f1924 20%, #30243a 150%);
+  -ms-grid-rows: 30% 35% 25%;
+      grid-template-rows: 30% 35% 25%;
+  gap: 33px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #1e1f29), color-stop(80%, #2f2439));
+  background: linear-gradient(180deg, #1e1f29 15%, #2f2439 80%);
+}
+
+body header {
+  -ms-flex-item-align: self-end;
+      -ms-grid-row-align: self-end;
+      align-self: self-end;
+}
+
+body header h1 {
+  color: white;
+  padding: 0px 50px;
+  text-align: center;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.40rem;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 22px 22px;
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #8486a9;
+  letter-spacing: 0.15rem;
+}
+
+body main .time {
+  height: 66px;
+  width: 70px;
+  background-color: white;
+  border-radius: .25rem;
+  margin-bottom: 15px;
+}
+
+body main p {
+  text-align: center;
 }
 
 body footer {
   background-image: url("../project/images/pattern-hills.svg");
   background-size: cover;
-  background-position-x: -50%;
+  background-position-x: -55%;
 }
 
 body footer .icons {
@@ -39,7 +80,7 @@ body footer .icons {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 50%;
-  margin: 140px auto 20px;
+  margin: 99px auto 20px;
 }
 
 body footer .attribution {

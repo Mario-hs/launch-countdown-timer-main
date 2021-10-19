@@ -1,24 +1,58 @@
 @import './reset.scss';
 
 body {
-    height: 100%;
+    height: 95%;
     display: grid;
-    grid-template-rows: 30% 30% 30%;
-    gap: 38px;
-    // background: linear-gradient(186deg, $color-body 10%, $color-body-light 100%);
-    background: linear-gradient(180deg, $very-dark-blue 5%, $very-dark-mostly-black-purple 20%, $color-body-light 150%);
+    grid-template-rows: 30% 35% 25%;
+    gap: 33px;
+    background: linear-gradient(180deg, $very-dark-blue 15%, $very-dark-mostly-black-purple 80%);
 
+    header {
+        align-self: self-end;
+        h1 {
+            color: $white;
+            padding: 0px 50px;
+            text-align: center;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.40rem;
+        }
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        padding: 22px 22px;
+
+        font-size: 8px;
+        text-transform: uppercase;
+        color: $grayish-blue;
+        letter-spacing: 0.15rem;
+
+        .time {
+            height: 66px;
+            width: 70px;
+
+            background-color: white;
+            border-radius: .25rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
 
     footer {
         background-image: url("../project/images/pattern-hills.svg");
         background-size: cover;
-        background-position-x: -50%;
+        background-position-x: -55%;
 
         .icons {
             display: flex;
             justify-content: space-around;
             width: 50%;
-            margin: 140px auto 20px;
+            margin: 99px auto 20px;
         }
         
         .attribution {
