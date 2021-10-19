@@ -6,7 +6,49 @@
           box-sizing: border-box;
 }
 
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
   font-family: "Red Hat Text", sans-serif;
+}
+
+body {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 30% 30% 30%;
+      grid-template-rows: 30% 30% 30%;
+  gap: 38px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #1e1f29), color-stop(20%, #1f1924), color-stop(150%, #30243a));
+  background: linear-gradient(180deg, #1e1f29 5%, #1f1924 20%, #30243a 150%);
+}
+
+body footer {
+  background-image: url("../project/images/pattern-hills.svg");
+  background-size: cover;
+  background-position-x: -50%;
+}
+
+body footer .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  margin: 140px auto 20px;
+}
+
+body footer .attribution {
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
+
+body footer .attribution a {
+  color: #8486a9;
 }
 /*# sourceMappingURL=styles.css.map */

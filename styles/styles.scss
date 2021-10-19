@@ -1,1 +1,34 @@
 @import './reset.scss';
+
+body {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+    gap: 38px;
+    // background: linear-gradient(186deg, $color-body 10%, $color-body-light 100%);
+    background: linear-gradient(180deg, $very-dark-blue 5%, $very-dark-mostly-black-purple 20%, $color-body-light 150%);
+
+
+    footer {
+        background-image: url("../project/images/pattern-hills.svg");
+        background-size: cover;
+        background-position-x: -50%;
+
+        .icons {
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            margin: 140px auto 20px;
+        }
+        
+        .attribution {
+            color: $white;
+            font-size: 11px;
+            text-align: center;
+
+            a {
+                color: $grayish-blue;
+            }
+        }
+    }
+}
