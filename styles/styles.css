@@ -56,10 +56,8 @@ body main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 22px 22px;
-  font-size: 8px;
   text-transform: uppercase;
   color: #8486a9;
-  letter-spacing: 0.15rem;
 }
 
 body main .time {
@@ -71,6 +69,8 @@ body main .time {
 }
 
 body main p {
+  font-size: 8px;
+  letter-spacing: 0.15rem;
   text-align: center;
 }
 
@@ -100,9 +100,9 @@ body footer .attribution a {
   color: #8486a9;
 }
 
-@media (min-width: 568px) {
-  footer {
-    background-position-x: -140%;
+@media (min-width: 565px) {
+  body footer {
+    background-position-x: 100%;
   }
 }
 
@@ -117,24 +117,40 @@ body footer .attribution a {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    margin-top: 50px;
+    margin-top: 115px;
   }
   body header h1 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     letter-spacing: 0.55rem;
   }
   body main {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    font-size: 14px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  body main .time {
-    height: 146px;
+  body main .container {
+    margin: 23px 16px;
+  }
+  body main .container .time {
+    height: 140px;
     width: 148px;
+  }
+  body main .container p {
+    font-size: 15px;
+    letter-spacing: 0.3rem;
+    margin-top: 25px;
   }
   body footer {
     background-position-x: -140%;
+  }
+  body footer .icons {
+    width: 15%;
+  }
+}
+
+@media (min-width: 768px) {
+  body footer {
+    background-position-x: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

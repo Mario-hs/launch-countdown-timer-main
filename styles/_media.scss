@@ -1,38 +1,56 @@
-@media(min-width: 568px){
-    footer {
-        background-position-x: -140%;
+@media (min-width: 565px){
+    body {
+        footer {
+            background-position-x: 100%;
+        }
     }
 }
 
-@media(min-width: 764px){
+@media (min-width: 764px){
     body {
         grid-template-rows: 26% 45% 25%;
         background: linear-gradient(180deg, #1e1f29 10%, #2f2439 125%);
 
         header {
             align-self: center;
-            margin-top: 50px;
+            margin-top: 115px;
             h1{
-                font-size: 1.4rem;
+                font-size: 1.3rem;
                 letter-spacing: 0.55rem;
             }
         }
 
         main {
-            justify-content: space-evenly;
-            font-size: 14px;
-            .time {
-                height: 146px;
-                width: 148px;
+            justify-content: center;
+            .container {
+                margin: 23px 16px;
+
+                .time {
+                    height: 140px;
+                    width: 148px;
+                }
+
+                p {
+                    font-size: 15px;
+                    letter-spacing: 0.3rem;
+                    margin-top: 25px;
+                }
             }
         }
 
         footer {
             background-position-x: -140%;
+            .icons {
+                width: 15%;
+            }
         }
     }
 }
 
-@media (min-width: 765px) {
-
+@media (min-width: 768px) {
+    body {
+        footer {
+            background-position-x: 100%;
+        }
+    }
 }

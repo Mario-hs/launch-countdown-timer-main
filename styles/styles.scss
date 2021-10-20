@@ -31,10 +31,8 @@ body {
         justify-content: space-between;
         padding: 22px 22px;
 
-        font-size: 8px;
         text-transform: uppercase;
         color: $grayish-blue;
-        letter-spacing: 0.15rem;
 
         .time {
             height: 66px;
@@ -46,6 +44,8 @@ body {
         }
 
         p {
+            font-size: 8px;
+            letter-spacing: 0.15rem;
             text-align: center;
         }
     }
