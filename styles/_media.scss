@@ -1,0 +1,38 @@
+@media(min-width: 568px){
+    footer {
+        background-position-x: -140%;
+    }
+}
+
+@media(min-width: 764px){
+    body {
+        grid-template-rows: 26% 45% 25%;
+        background: linear-gradient(180deg, #1e1f29 10%, #2f2439 125%);
+
+        header {
+            align-self: center;
+            margin-top: 50px;
+            h1{
+                font-size: 1.4rem;
+                letter-spacing: 0.55rem;
+            }
+        }
+
+        main {
+            justify-content: space-evenly;
+            font-size: 14px;
+            .time {
+                height: 146px;
+                width: 148px;
+            }
+        }
+
+        footer {
+            background-position-x: -140%;
+        }
+    }
+}
+
+@media (min-width: 765px) {
+
+}

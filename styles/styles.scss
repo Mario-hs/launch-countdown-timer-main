@@ -7,6 +7,13 @@ body {
     gap: 33px;
     background: linear-gradient(180deg, $very-dark-blue 15%, $very-dark-mostly-black-purple 80%);
 
+    &:after {
+        display: block;
+        content: url("../project/images/bg-stars.svg");
+        position: fixed;
+        z-index: -1;
+    }
+
     header {
         align-self: self-end;
         h1 {
@@ -46,7 +53,7 @@ body {
     footer {
         background-image: url("../project/images/pattern-hills.svg");
         background-size: cover;
-        background-position-x: -55%;
+        background-position-x: -75%;
 
         .icons {
             display: flex;
@@ -65,4 +72,8 @@ body {
             }
         }
     }
+    
 }
+
+@import './media.scss'
+

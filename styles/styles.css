@@ -26,6 +26,13 @@ body {
   background: linear-gradient(180deg, #1e1f29 15%, #2f2439 80%);
 }
 
+body:after {
+  display: block;
+  content: url("../project/images/bg-stars.svg");
+  position: fixed;
+  z-index: -1;
+}
+
 body header {
   -ms-flex-item-align: self-end;
       -ms-grid-row-align: self-end;
@@ -70,7 +77,7 @@ body main p {
 body footer {
   background-image: url("../project/images/pattern-hills.svg");
   background-size: cover;
-  background-position-x: -55%;
+  background-position-x: -75%;
 }
 
 body footer .icons {
@@ -91,5 +98,43 @@ body footer .attribution {
 
 body footer .attribution a {
   color: #8486a9;
+}
+
+@media (min-width: 568px) {
+  footer {
+    background-position-x: -140%;
+  }
+}
+
+@media (min-width: 764px) {
+  body {
+    -ms-grid-rows: 26% 45% 25%;
+        grid-template-rows: 26% 45% 25%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #1e1f29), color-stop(125%, #2f2439));
+    background: linear-gradient(180deg, #1e1f29 10%, #2f2439 125%);
+  }
+  body header {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 50px;
+  }
+  body header h1 {
+    font-size: 1.4rem;
+    letter-spacing: 0.55rem;
+  }
+  body main {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-size: 14px;
+  }
+  body main .time {
+    height: 146px;
+    width: 148px;
+  }
+  body footer {
+    background-position-x: -140%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
