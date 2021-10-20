@@ -70,6 +70,28 @@ body main .time {
           box-shadow: 0px 7px 2px -1px #1e1f29;
 }
 
+body main .time:before {
+  content: " ";
+  position: absolute;
+  background: #1e1f29;
+  width: 4px;
+  height: 7px;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+  border-radius: 0rem 2rem 2rem 0rem;
+}
+
+body main .time:after {
+  content: " ";
+  position: absolute;
+  background: #1e1f29;
+  width: 4px;
+  height: 7px;
+  -webkit-transform: translate3d(66px, 30px, 10px);
+          transform: translate3d(66px, 30px, 10px);
+  border-radius: 2rem 0rem 0rem 2rem;
+}
+
 body main p {
   font-size: 8px;
   letter-spacing: 0.15rem;
@@ -138,6 +160,26 @@ body footer .attribution a {
     width: 148px;
     -webkit-box-shadow: 0 11px 0px -1px #1e1f29;
             box-shadow: 0 11px 0px -1px #1e1f29;
+  }
+  body main .container .time:before {
+    content: " ";
+    position: absolute;
+    background: #1e1f29;
+    width: 8px;
+    height: 12px;
+    -webkit-transform: translateY(64px);
+            transform: translateY(64px);
+    border-radius: 0rem 2rem 2rem 0rem;
+  }
+  body main .container .time:after {
+    content: " ";
+    position: absolute;
+    background: #1e1f29;
+    width: 8px;
+    height: 12px;
+    -webkit-transform: translate3d(140px, 64px, 10px);
+            transform: translate3d(140px, 64px, 10px);
+    border-radius: 2rem 0rem 0rem 2rem;
   }
   body main .container p {
     font-size: 15px;

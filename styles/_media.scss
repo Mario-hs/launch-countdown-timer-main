@@ -29,6 +29,30 @@
                     height: 140px;
                     width: 148px;
                     box-shadow: 0 11px 0px -1px $very-dark-blue;
+
+                    span {
+
+                    }
+
+                    &:before{
+                        content: " ";
+                        position: absolute;
+                        background: $very-dark-blue;
+                        width: 8px;
+                        height: 12px;
+                        transform: translateY(64px);
+                        border-radius: 0rem 2rem 2rem 0rem;
+                    }
+
+                    &:after {
+                        content: " ";
+                        position: absolute;
+                        background: $very-dark-blue;
+                        width: 8px;
+                        height: 12px;
+                        transform: translate3d(140px, 64px, 10px);
+                        border-radius: 2rem 0rem 0rem 2rem;
+                    }
                 }
 
                 p {
