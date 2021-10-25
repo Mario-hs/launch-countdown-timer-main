@@ -79,7 +79,7 @@ body main .time p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  font-size: 80px;
+  font-size: 36px;
   font-weight: 700;
   color: #fb6087;
 }
