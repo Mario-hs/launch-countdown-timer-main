@@ -105,11 +105,11 @@ body main .time p:after {
   content: "";
   position: absolute;
   width: 70px;
-  height: 34px;
+  height: 33.97px;
   background: #1e1f29;
   opacity: 0.25;
-  -webkit-transform: translateY(-9px);
-          transform: translateY(-9px);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
   border-radius: 0.5rem;
 }
 
