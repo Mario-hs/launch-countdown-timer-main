@@ -110,7 +110,7 @@ body main .time p:after {
   opacity: 0.25;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
 }
 
 body main .time:before {
