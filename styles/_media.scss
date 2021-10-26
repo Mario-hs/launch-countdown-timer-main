@@ -34,26 +34,34 @@
                         letter-spacing: 0rem;
                         font-size: 70px;
                         margin: 0px auto;
+
+                        &:before {
+                            width: 135px;
+                            transform: translate(0px, 52px);
+                        }
+
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            width: 148px;
+                            height: 69px;
+                            background: $very-dark-blue;
+                            opacity: 0.25;
+                            transform: translateY(-17px);
+                            border-radius: 0.5rem;
+                        }
                     }
 
                     &:before{
-                        content: " ";
-                        position: absolute;
-                        background: $very-dark-blue;
                         width: 8px;
                         height: 12px;
                         transform: translateY(64px);
-                        border-radius: 0rem 2rem 2rem 0rem;
                     }
 
                     &:after {
-                        content: " ";
-                        position: absolute;
-                        background: $very-dark-blue;
                         width: 8px;
                         height: 12px;
                         transform: translate3d(140px, 64px, 10px);
-                        border-radius: 2rem 0rem 0rem 2rem;
                     }
                 }
 
@@ -76,6 +84,17 @@
 
 @media (min-width: 768px) {
     body {
+        main {
+            .container {
+                .time {
+                    p {
+                        font-size: 80px;
+                        
+                    }
+                }
+            }
+        }
+        
         footer {
             background-position-x: 100%;
         }
