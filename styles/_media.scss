@@ -41,14 +41,9 @@
                         }
 
                         &:after {
-                            content: "";
-                            position: absolute;
                             width: 148px;
                             height: 69px;
-                            background: $very-dark-blue;
-                            opacity: 0.25;
                             transform: translateY(-17px);
-                            border-radius: 0.5rem;
                         }
                     }
 

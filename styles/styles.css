@@ -215,15 +215,10 @@ body footer .attribution a {
             transform: translate(0px, 52px);
   }
   body main .container .time p:after {
-    content: "";
-    position: absolute;
     width: 148px;
     height: 69px;
-    background: #1e1f29;
-    opacity: 0.25;
     -webkit-transform: translateY(-17px);
             transform: translateY(-17px);
-    border-radius: 0.5rem;
   }
   body main .container .time:before {
     width: 6px;
