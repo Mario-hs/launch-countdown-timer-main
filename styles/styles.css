@@ -105,7 +105,7 @@ body main .time p:after {
   content: "";
   position: absolute;
   width: 70px;
-  height: 33.97px;
+  height: 33.975px;
   background: #1e1f29;
   opacity: 0.25;
   -webkit-transform: translateY(-10px);
