@@ -110,7 +110,7 @@ body main .time p:after {
   opacity: 0.25;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
-  border-radius: 0.25rem;
+  border-radius: 0.25rem 0.25rem 0px 0px;
 }
 
 body main .time:before {
@@ -219,6 +219,7 @@ body footer .attribution a {
     height: 69px;
     -webkit-transform: translateY(-17px);
             transform: translateY(-17px);
+    border-radius: 0.5rem 0.5rem 0px 0px;
   }
   body main .container .time:before {
     width: 6px;
