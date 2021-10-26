@@ -36,7 +36,7 @@
                         margin: 0px auto;
 
                         &:before {
-                            width: 135px;
+                            width: 140px;
                             transform: translate(0px, 52px);
                         }
 
@@ -53,15 +53,15 @@
                     }
 
                     &:before{
-                        width: 8px;
+                        width: 6px;
                         height: 12px;
                         transform: translateY(64px);
                     }
 
                     &:after {
-                        width: 8px;
+                        width: 6px;
                         height: 12px;
-                        transform: translate3d(140px, 64px, 10px);
+                        transform: translate3d(142px, 64px, 10px);
                     }
                 }
 

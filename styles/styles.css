@@ -210,7 +210,7 @@ body footer .attribution a {
     margin: 0px auto;
   }
   body main .container .time p:before {
-    width: 135px;
+    width: 140px;
     -webkit-transform: translate(0px, 52px);
             transform: translate(0px, 52px);
   }
@@ -226,16 +226,16 @@ body footer .attribution a {
     border-radius: 0.5rem;
   }
   body main .container .time:before {
-    width: 8px;
+    width: 6px;
     height: 12px;
     -webkit-transform: translateY(64px);
             transform: translateY(64px);
   }
   body main .container .time:after {
-    width: 8px;
+    width: 6px;
     height: 12px;
-    -webkit-transform: translate3d(140px, 64px, 10px);
-            transform: translate3d(140px, 64px, 10px);
+    -webkit-transform: translate3d(142px, 64px, 10px);
+            transform: translate3d(142px, 64px, 10px);
   }
   body main .container p {
     font-size: 15px;
